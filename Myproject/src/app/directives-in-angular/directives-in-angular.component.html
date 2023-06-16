@@ -1,0 +1,84 @@
+ <!-- directives can be classified in 3 categories based on how they behave:
+
+1.Component Directives
+2.Structural Directives
+3.Attribute Directives
+
+Component Directives: Component directives are used in main class.
+They contain the detail of how the component should be processed,
+instantiated and used at runtime.
+
+Structural Directives: Structural directives start with a * sign. 
+These directives are used to manipulate and change the structure 
+of the DOM elements(show or hide).
+For example, *ngIf directive, *ngSwitch directive, and *ngFor directive. -->
+<!-- uses:
+*ngIf Directive: The ngIf allows us to Add/Remove DOM Element.
+*ngSwitch Directive: The *ngSwitch allows us to Add/Remove DOM Element. It is similar to switch statement of C#.
+*ngFor Directive: The *ngFor directive is used to repeat a portion of HTML template once per each item from an iterable list (Collection). -->
+
+<div>
+    <!-- In case of true value of propery compiler will ADD that element to the DOM -->
+    <h1 *ngIf="show1">hhhhhhhhhh</h1>
+  
+    <!-- In case of false value of propery compiler will remove that element from DOM -->
+    <div *ngIf="show">I live in mumbai
+      <h2>ggg</h2>
+      <p>jdjdjdj</p>
+    </div>
+  
+    <!--In case of undefined value of property it will consider it as a false,
+          hence it should
+        removed from DOM-->
+    <p *ngIf="toShowPara1">poonam</p>
+  
+    <!-- In case of conditions compiler will show element to DOM
+           if condiotion would true else it will remove element from DOM if condition would false -->
+    <p *ngIf="toShowPara === 'poonam'">teststttttt</p>
+  
+    <!-- <h1 *ngIf = "undefinedProperty = true">h111111111111111111</h1> not possible-->
+  
+    <!-- In case of property having NULL value compiler will consider it as a false,hence it should
+     removed from DOM-->
+    <p *ngIf="nullProperty">kkkkkk</p>
+  </div>
+  
+  
+  <div class="div-container" *ngIf="toggel">
+  
+  </div>
+  
+  <br><br>
+  <button (click)="toggelEffect()"> Click </button>
+  {{cars}}
+  
+  <!-- <ul>
+    <li>swift</li>
+    <li>i20</li>
+  </ul> -->
+  
+    <ul *ngFor = "let item of cars">
+     <li class = "itm-container">{{item}}</li>
+  </ul>  
+  
+  <table class="table-container">
+    <tr>
+      <th>carName</th>
+      <th>carPrice</th>
+      <th>color</th>
+    </tr>
+    <tr *ngFor = "let tableData of carDetails">
+      <td>{{tableData.carName}}</td>
+      <td>{{tableData.carPrice}}</td>
+      <td>{{tableData.color}}</td>
+    </tr>
+  </table>
+  
+  <ul *ngFor="let data of data2">
+    <li >{{ data}}</li>
+   </ul>
+   <ul *ngFor = " let data of data3">
+    <li>{{data}}</li>
+   </ul>
+  
+  
