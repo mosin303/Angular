@@ -5,11 +5,13 @@ import { StudentRoutingModule } from './student-routing.module';
 import { StudentActivityComponent } from './student-activity/student-activity.component';
 import { StudentDemoComponent } from './student-demo/student-demo.component';
 import { FormsModule } from '@angular/forms';
+ 
 
 @NgModule({
   declarations: [
     StudentActivityComponent,
-    StudentDemoComponent
+    StudentDemoComponent,
+    
   ],
   imports: [
     CommonModule,

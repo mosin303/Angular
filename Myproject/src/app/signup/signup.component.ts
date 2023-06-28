@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
+import { StoringService } from '../storing.service';
 
 @Component({
   selector: 'app-signup',
@@ -6,15 +9,54 @@ import { Component } from '@angular/core';
   styleUrls: ['./signup.component.css']
 })
 export class SignupComponent {
-  user = {
-    username: '',
-    email: '',
-    password: ''
-  };
+  signUpForm! :FormGroup
+  //name:string = 'poonam';
+  //name!:string;
+  student = {
+   name: 'mosin',
+   age:23,
+   mob:6464646464,
+   city:'mumbai'
+  }
+  data:any;
+  constructor(private fb: FormBuilder, 
+           private storingService : StoringService,
+            private router: Router
+            ){}
+  //  ngOnInit(){
+  //     this.formDef();
+  //     this.sDataService.studentData =  this.student; //set student obj to service property studentData
+  //      this.data  = this.studentDataService.data;
+  //      console.log(" this.data  >>", this.data  );
+       
+  //    }
 
-  onSubmit() {
-    console.log('User submitted:', this.user);
-    // Perform signup logic here (e.g., send data to backend API)
-    // You can use Angular's HttpClient module for making HTTP requests
-}
+    formDef(){
+       this.signUpForm = this.fb.group({
+         fullName : ['',[Validators.required, Validators.pattern("[a-zA-Z ]*$"),
+                    Validators.minLength(10), ]],
+         mobNo:['',[Validators.pattern("[0-9]*$"),Validators.minLength(10),Validators.maxLength(10)]],
+         email:[],
+         userName:[],
+         city:[],
+         address:[],
+         gender:['Female']
+       })
+
+     }
+
+     submit(){
+      console.log(this.signUpForm.value);
+      this.storingService.userFullName = this.signUpForm.value.fullName;
+      console.log(' this.storingService.userFullName>>', this.storingService.userFullName);
+      this.storingService.listOfUsers = ['poonam','pooja','nitin','shri'];
+      this.router.navigateByUrl('landing');
+     }
+
+
+
+
+
+
+
 }

@@ -7,6 +7,14 @@ import { Router } from '@angular/router';
   styleUrls: ['./landing.component.css']
 })
 export class LandingComponent {
+
+  test : any ;  //property section
+  userName!:string;
+  list:any;
+  studentsData:any;
+
+
+
   constructor(private router : Router){
 
   }
@@ -22,6 +30,14 @@ export class LandingComponent {
 
   signup(){
     this.router.navigateByUrl('/signup');
+  }
+
+  parent(){
+    this.router.navigateByUrl('/parent'); 
+  }
+
+  lifecyclehooks(){
+    this.router.navigateByUrl('/lifecyclehooks()')
   }
 
 }

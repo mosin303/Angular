@@ -9,6 +9,9 @@ import { DirectivesInAngularComponent } from './directives-in-angular/directives
  
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SignupComponent } from './signup/signup.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
+import { LifecyclehooksComponent } from './lifecyclehooks/lifecyclehooks.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,6 +20,9 @@ import { SignupComponent } from './signup/signup.component';
     
     DirectivesInAngularComponent,
          SignupComponent,
+         ParentComponent,
+         ChildComponent,
+         LifecyclehooksComponent,
 
      
   ],
