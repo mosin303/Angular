@@ -3,7 +3,159 @@
     {
       "id": 1,
       "title": "json-server",
-      "author": "typicode"
+      "author": "typicode",
+      "name": "Mosin",
+      "mob": "9380256572"
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "4557931535",
+      "email": "mosinmulla553@gmail.com",
+      "userName": "5536333",
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 2
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "",
+      "email": "mosinmulla553@gmail.com",
+      "userName": null,
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 3
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "",
+      "email": "mosinmulla553@gmail.com",
+      "userName": null,
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 4
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "",
+      "email": "mosinmulla553@gmail.com",
+      "userName": null,
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 5
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "",
+      "email": "mosinmulla553@gmail.com",
+      "userName": null,
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 6
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "",
+      "email": "mosinmulla553@gmail.com",
+      "userName": null,
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 7
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "",
+      "email": "mosinmulla553@gmail.com",
+      "userName": null,
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 8
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "",
+      "email": "mosinmulla553@gmail.com",
+      "userName": null,
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 9
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "",
+      "email": "mosinmulla553@gmail.com",
+      "userName": null,
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 10
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "9257855141",
+      "email": "mosinmulla553@gmail.com",
+      "userName": null,
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 11
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "9257855141",
+      "email": "mosinmulla553@gmail.com",
+      "userName": null,
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 12
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "",
+      "email": "mosinmulla553@gmail.com",
+      "userName": null,
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 13
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "",
+      "email": "mosinmulla553@gmail.com",
+      "userName": null,
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 14
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "",
+      "email": "mosinmulla553@gmail.com",
+      "userName": null,
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 15
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "",
+      "email": "mosinmulla553@gmail.com",
+      "userName": null,
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 16
     }
   ],
   "comments": [
@@ -15,5 +167,76 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "studentname": [
+    {
+      "id": 1
+    },
+    {
+      "studentName": "mosin",
+      "id": 2
+    },
+    {
+      "studentName": "mosin",
+      "id": 3
+    },
+    {
+      "studentName": "mohjj",
+      "id": 4
+    },
+    {
+      "studentName": "ljkkn",
+      "id": 5
+    },
+    {
+      "studentName": "ljkkn",
+      "id": 6
+    },
+    {
+      "studentName": "mosin",
+      "id": 7
+    }
+  ],
+  "form": [
+    {
+      "Name": "mosin mulla",
+      "MobileNumber": "5569325",
+      "id": 1
+    },
+    {
+      "Name": "mosin mulla",
+      "MobileNumber": "5569325",
+      "id": 2
+    },
+    {
+      "Name": "mosin mulla",
+      "MobileNumber": "5569325",
+      "id": 3
+    },
+    {
+      "Name": "mosin mulla",
+      "MobileNumber": "5569325",
+      "id": 4
+    },
+    {
+      "Name": "mosin mulla",
+      "MobileNumber": "5569325",
+      "id": 5
+    },
+    {
+      "Name": "mosin mulla",
+      "MobileNumber": "5569325",
+      "id": 6
+    },
+    {
+      "Name": "mosin mulla",
+      "MobileNumber": "5569325",
+      "id": 7
+    },
+    {
+      "Name": "mosin mulla",
+      "MobileNumber": "5556",
+      "id": 8
+    }
+  ]
 }

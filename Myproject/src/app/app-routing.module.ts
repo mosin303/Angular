@@ -7,6 +7,8 @@ import { DirectivesInAngularComponent } from './directives-in-angular/directives
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { LifecyclehooksComponent } from './lifecyclehooks/lifecyclehooks.component';
+import { ApicallComponent } from './student/apicall/apicall.component';
+import { FormComponent } from './form/form.component';
 
 const routes: Routes = [
 { path : '', component :LandingComponent},
@@ -17,6 +19,7 @@ const routes: Routes = [
 {path : 'parent',component : ParentComponent},
 { path : 'child',component: ChildComponent},
 { path : 'lifecyclehooks', component :LifecyclehooksComponent},
+ {path : 'form',component: FormComponent},
 { path : 'student', loadChildren:()=>import ('./student/student.module').then(mod=>mod.StudentModule) }
 ];
 

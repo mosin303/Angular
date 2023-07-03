@@ -40,4 +40,11 @@ export class LandingComponent {
     this.router.navigateByUrl('/lifecyclehooks()')
   }
 
+  apicall(){
+    this.router.navigateByUrl('student/apicall')
+  }
+  form(){
+    this.router.navigateByUrl('form')
+  }
+
 }

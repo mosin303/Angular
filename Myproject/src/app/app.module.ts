@@ -12,6 +12,8 @@ import { SignupComponent } from './signup/signup.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { LifecyclehooksComponent } from './lifecyclehooks/lifecyclehooks.component';
+import { SharedModule } from './shared/shared.module';
+import { FormComponent } from './form/form.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +25,7 @@ import { LifecyclehooksComponent } from './lifecyclehooks/lifecyclehooks.compone
          ParentComponent,
          ChildComponent,
          LifecyclehooksComponent,
+         FormComponent,
 
      
   ],
@@ -30,7 +33,8 @@ import { LifecyclehooksComponent } from './lifecyclehooks/lifecyclehooks.compone
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
