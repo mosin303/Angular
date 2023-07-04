@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { StoringService } from 'src/app/storing.service';
 import { ApidataService } from '../apidata.service';
+import { Router } from '@angular/router';
  
 @Component({
   selector: 'app-apicall',
@@ -10,15 +11,18 @@ import { ApidataService } from '../apidata.service';
 })
 export class ApicallComponent {
   signUpForm! :FormGroup;
+  formData:any;
   postApiResponse: any;
   studentName:any;
 
 
   constructor(private fb: FormBuilder, private sDataSeravice :StoringService,
-    private ApidataSevice:ApidataService ){}
+    private ApidataSevice:ApidataService,
+    private router:Router ){}
 
  ngOnInit(){
     this.formDef();
+    
   }
   
   formDef(){
@@ -40,6 +44,9 @@ export class ApicallComponent {
     this.postApiResponse = response;
     })
 }
+studentActivity(){
+  this.router.navigateByUrl('student/studentActivity');
+}
 
 inputBox(){
   console.log(this.studentName);
@@ -53,4 +60,5 @@ inputBox(){
      })
     }
 }
+ 
 }

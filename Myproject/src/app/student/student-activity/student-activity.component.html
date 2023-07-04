@@ -1,1 +1,21 @@
 <p>student-activity works!</p>
+
+<div *ngIf ="formData" class="table-container">
+    <table>
+       <tr>
+        <th *ngFor ="let heading of tableHeading">{{heading}}</th>
+       </tr> 
+       <tr *ngFor ="let tableData of formData"> 
+        <td>{{tableData.id}}</td>
+        <td>{{tableData.fullName}}</td>
+        <td>{{tableData.mobNo}}</td>
+        <td>{{tableData.email}}</td>
+         
+        <td>{{tableData.city}}</td>
+        <td>{{tableData.address}}</td>
+        <td>{{tableData.gender}}</td>
+
+       </tr>
+    </table>
+    <!-- ["id",' fullName ', "mobNo",  "email","userName","city","address","gender"]; -->
+</div>

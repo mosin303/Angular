@@ -1,13 +1,6 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode",
-      "name": "Mosin",
-      "mob": "9380256572"
-    },
-    {
       "fullName": "mosin mula",
       "mobNo": "4557931535",
       "email": "mosinmulla553@gmail.com",
@@ -15,11 +8,21 @@
       "city": "PUNE",
       "address": "umadi",
       "gender": "Male",
+      "id": 1
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "4448514445",
+      "email": "mosinmulla553@gmail.com",
+      "userName": null,
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
       "id": 2
     },
     {
       "fullName": "mosin mula",
-      "mobNo": "",
+      "mobNo": "4589659652",
       "email": "mosinmulla553@gmail.com",
       "userName": null,
       "city": "PUNE",
@@ -28,144 +31,24 @@
       "id": 3
     },
     {
-      "fullName": "mosin mula",
-      "mobNo": "",
+      "fullName": "salman mulla",
+      "mobNo": "5553636363",
       "email": "mosinmulla553@gmail.com",
-      "userName": null,
+      "userName": "salman",
       "city": "PUNE",
       "address": "umadi",
       "gender": "Male",
       "id": 4
     },
     {
-      "fullName": "mosin mula",
-      "mobNo": "",
+      "fullName": "salman mulla",
+      "mobNo": "5553636363",
       "email": "mosinmulla553@gmail.com",
-      "userName": null,
+      "userName": "salman",
       "city": "PUNE",
       "address": "umadi",
       "gender": "Male",
       "id": 5
-    },
-    {
-      "fullName": "mosin mula",
-      "mobNo": "",
-      "email": "mosinmulla553@gmail.com",
-      "userName": null,
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 6
-    },
-    {
-      "fullName": "mosin mula",
-      "mobNo": "",
-      "email": "mosinmulla553@gmail.com",
-      "userName": null,
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 7
-    },
-    {
-      "fullName": "mosin mula",
-      "mobNo": "",
-      "email": "mosinmulla553@gmail.com",
-      "userName": null,
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 8
-    },
-    {
-      "fullName": "mosin mula",
-      "mobNo": "",
-      "email": "mosinmulla553@gmail.com",
-      "userName": null,
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 9
-    },
-    {
-      "fullName": "mosin mula",
-      "mobNo": "",
-      "email": "mosinmulla553@gmail.com",
-      "userName": null,
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 10
-    },
-    {
-      "fullName": "mosin mula",
-      "mobNo": "9257855141",
-      "email": "mosinmulla553@gmail.com",
-      "userName": null,
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 11
-    },
-    {
-      "fullName": "mosin mula",
-      "mobNo": "9257855141",
-      "email": "mosinmulla553@gmail.com",
-      "userName": null,
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 12
-    },
-    {
-      "fullName": "mosin mula",
-      "mobNo": "",
-      "email": "mosinmulla553@gmail.com",
-      "userName": null,
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 13
-    },
-    {
-      "fullName": "mosin mula",
-      "mobNo": "",
-      "email": "mosinmulla553@gmail.com",
-      "userName": null,
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 14
-    },
-    {
-      "fullName": "mosin mula",
-      "mobNo": "",
-      "email": "mosinmulla553@gmail.com",
-      "userName": null,
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 15
-    },
-    {
-      "fullName": "mosin mula",
-      "mobNo": "",
-      "email": "mosinmulla553@gmail.com",
-      "userName": null,
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 16
-    },
-    {
-      "fullName": "mosin mula",
-      "mobNo": "4656656665",
-      "email": "mosinmulla553@gmail.com",
-      "userName": "36+6",
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 17
     }
   ],
   "comments": [
@@ -221,7 +104,21 @@
       "Name": "mosin mulla",
       "MobileNumber": "5569325",
       "id": 2
+    },
+    {
+      "Name": "mosin mula",
+      "MobileNumber": "",
+      "id": 3
+    },
+    {
+      "Name": "mosin mulla",
+      "MobileNumber": "58795462552",
+      "id": 4
+    },
+    {
+      "Name": "",
+      "MobileNumber": "",
+      "id": 5
     }
-    
   ]
 }

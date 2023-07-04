@@ -29,7 +29,10 @@
         
         <label>MobNo</label><br>
         <input type="text" formControlName="mobNo"><br>
-        <span *ngIf="!signUpForm.get('mobNo')?.touched">Hint: Enter you Mobile Number</span>
+        <span *ngIf="!signUpForm.get('fullName')?.touched 
+        && !signUpForm.get('fullName')?.valid
+        && !signUpForm.get('fullName')?.dirty">Hint:Enter Your Full Name here
+       </span>
         <span *ngIf="signUpForm.get('mobNo')?.errors?.['pattern']
                 && signUpForm.get('mobNo')?.touched " class="err">
             Mobile no should be in Integers</span>
@@ -66,8 +69,10 @@
   <div class="stdname">
   Enter student Name : <input type="text" [(ngModel)]="studentName" (blur)="inputBox()">
 
-  </div>
+  </div><br><br>
+  <button (click)="studentActivity()" class="btn-login">Student Activity</button>
   <br><br><br>
+   
   
   
   
