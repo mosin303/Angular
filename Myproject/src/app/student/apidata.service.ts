@@ -15,4 +15,9 @@ export class ApidataService {
     let apiUrl = this.url + endpoint;
     return  this.httpClient.post(apiUrl,data)
   }
+
+  getApiCall(endpoint:any){
+    let url = this.url + endpoint;
+    return this.httpClient.get(url);
+  }
 }

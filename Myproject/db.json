@@ -156,6 +156,16 @@
       "address": "umadi",
       "gender": "Male",
       "id": 16
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "4656656665",
+      "email": "mosinmulla553@gmail.com",
+      "userName": "36+6",
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 17
     }
   ],
   "comments": [
@@ -195,6 +205,10 @@
     {
       "studentName": "mosin",
       "id": 7
+    },
+    {
+      "studentName": "554",
+      "id": 8
     }
   ],
   "form": [
@@ -207,36 +221,7 @@
       "Name": "mosin mulla",
       "MobileNumber": "5569325",
       "id": 2
-    },
-    {
-      "Name": "mosin mulla",
-      "MobileNumber": "5569325",
-      "id": 3
-    },
-    {
-      "Name": "mosin mulla",
-      "MobileNumber": "5569325",
-      "id": 4
-    },
-    {
-      "Name": "mosin mulla",
-      "MobileNumber": "5569325",
-      "id": 5
-    },
-    {
-      "Name": "mosin mulla",
-      "MobileNumber": "5569325",
-      "id": 6
-    },
-    {
-      "Name": "mosin mulla",
-      "MobileNumber": "5569325",
-      "id": 7
-    },
-    {
-      "Name": "mosin mulla",
-      "MobileNumber": "5556",
-      "id": 8
     }
+    
   ]
 }

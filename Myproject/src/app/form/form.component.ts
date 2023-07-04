@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { ApidataService } from '../student/apidata.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-form',
@@ -9,13 +10,16 @@ import { ApidataService } from '../student/apidata.service';
 })
 export class FormComponent {
   form!:FormGroup
-
+  formData:any;
+  tableHeading : any[]= ['Name', "MobileNumber","id"  ];
   constructor( private fb:FormBuilder,
-    private apidata:ApidataService ){}
+    private apidata:ApidataService,
+    private httpClient :HttpClient){}
 
     ngOnInit(){
       console.log('....')
       this.myForm();
+      this.getdata();
 
     }
 
@@ -41,4 +45,14 @@ export class FormComponent {
       })
 
     }
-}
+
+    getdata(){
+      let urlEndPointToGetData = 'form';
+      this.apidata.getApiCall(urlEndPointToGetData).subscribe(data =>{
+        console.log('get data',data);
+        this.formData = data
+        
+      });
+    }
+  }
+

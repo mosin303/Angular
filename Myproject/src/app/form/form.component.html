@@ -1,11 +1,26 @@
+<div>
 <p>form works!</p>
-
 <form [formGroup]="form">
-<label > Name</label>
-<input type="text"  formControlName="name"> <br><br>
-<label >MobNo</label>
-<input type="text" formControlName="mobileNo"><br><br>
-
-<button (click) ="save()">save</button>
-
+    <label > Name</label>
+    <input type="text"  formControlName="name"> <br><br>
+    <label >MobNo</label>
+    <input type="text" formControlName="mobileNo"><br><br>
+    
+    <button (click) ="save()">save</button>
+    
 </form>
+
+<div *ngIf ="formData" class="table-container">
+    <table>
+       <tr>
+        <th *ngFor ="let heading of tableHeading">{{heading}}</th>
+       </tr> 
+       <tr *ngFor ="let tableData of formData"> 
+        <td>{{tableData.Name}}</td>
+        <td>{{tableData.MobileNumber}}</td>
+        <td>{{tableData.id}}</td>
+
+       </tr>
+    </table>
+
+</div>
