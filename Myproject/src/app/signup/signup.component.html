@@ -57,6 +57,13 @@
       <label>Address</label><br>
       <input type="text" formControlName="address"><br>
 
+      <label>Password</label><br>
+      <input type="text" formControlName="password"><br>
+
+      <label>Confirm Password</label><br>
+      <input type="text" formControlName="confirmPassword"><br>
+      <br><br>
+
       <br><br>
       <button [disabled]="!signUpForm.valid"  (click)="submit()"> Submit </button>
   </form>

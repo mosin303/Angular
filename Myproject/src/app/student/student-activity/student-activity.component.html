@@ -1,5 +1,7 @@
 <p>student-activity works!</p>
 
+<button (click)="delete()">delet Record</button><br><br>
+
 <div *ngIf ="formData" class="table-container">
     <table>
        <tr>
@@ -14,8 +16,36 @@
         <td>{{tableData.city}}</td>
         <td>{{tableData.address}}</td>
         <td>{{tableData.gender}}</td>
+        <td>{{tableData.password}}</td>
+        <td>{{tableData.confirmPassword}}</td>
+
 
        </tr>
     </table>
     <!-- ["id",' fullName ', "mobNo",  "email","userName","city","address","gender"]; -->
-</div>
+</div><br>
+
+
+<br>
+<div *ngIf ="fData" class="table-container">
+    <table>
+       <tr>
+        <th *ngFor ="let heading of tableHeading">{{heading}}</th>
+       </tr> 
+       <tr *ngFor ="let tableData of fData"> 
+        <td>{{tableData.id}}</td>
+        <td>{{tableData.fullName}}</td>
+        <td>{{tableData.mobNo}}</td>
+        <td>{{tableData.email}}</td>
+         
+        <td>{{tableData.city}}</td>
+        <td>{{tableData.address}}</td>
+        <td>{{tableData.gender}}</td>
+
+       </tr>
+    </table>
+     
+    <!-- ["id",' fullName ', "mobNo",  "email","userName","city","address","gender"]; -->
+</div><br>
+ 
+<br><br>

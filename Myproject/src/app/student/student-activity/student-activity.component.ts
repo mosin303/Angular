@@ -11,7 +11,8 @@ import { HttpClient } from '@angular/common/http';
 export class StudentActivityComponent {
 
   formData:any;
-  tableHeading : any[]= ["id",' fullName ', "mobNo",  "email", "city","address","gender"];
+  fData:any;
+  tableHeading : any[]= ["id",' fullName ', "mobNo",  "email", "city","address","gender","password","confirmPassword"];
   constructor( private fb:FormBuilder,
     private apidata:ApidataService,
     private httpClient :HttpClient){}
@@ -19,6 +20,7 @@ export class StudentActivityComponent {
     ngOnInit(){
       console.log('....')
        this.getdata();
+      
 
 }
 
@@ -29,4 +31,12 @@ getdata(){
     this.formData = data
   });
 }
+
+delete(){
+  this.apidata.deletApicall('posts',6).subscribe(resp=>{
+    console.log('delet respo',resp);
+    
+  })
+ }
+ 
 }

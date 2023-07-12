@@ -14,6 +14,7 @@ import { ChildComponent } from './child/child.component';
 import { LifecyclehooksComponent } from './lifecyclehooks/lifecyclehooks.component';
 import { SharedModule } from './shared/shared.module';
 import { FormComponent } from './form/form.component';
+import { GetidComponent } from './getid/getid.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +27,7 @@ import { FormComponent } from './form/form.component';
          ChildComponent,
          LifecyclehooksComponent,
          FormComponent,
+         GetidComponent,
 
      
   ],

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { ApidataService } from '../student/apidata.service';
 
 @Component({
   selector: 'app-landing',
@@ -12,10 +13,12 @@ export class LandingComponent {
   userName!:string;
   list:any;
   studentsData:any;
+  data: any;
 
 
 
-  constructor(private router : Router){
+  constructor(private router : Router,
+    private ApidataSevice:ApidataService){
 
   }
   login(){
@@ -47,4 +50,24 @@ export class LandingComponent {
     this.router.navigateByUrl('form')
   }
 
+  getById(){
+    this.router.navigateByUrl('getid')
+
+
+}
+fdata(){
+  this.router.navigateByUrl('fdata')
+}
+
+updateDetails(){this.ApidataSevice.journey = "update"
+this.ApidataSevice.getApiCall('posts','6').subscribe(response=>{
+  this.data= response;
+});
+
+if(this.data){
+  this.ApidataSevice.getDataById = this.data;
+  this.router.navigateByUrl('student/apicall')
+}
+
+}
 }

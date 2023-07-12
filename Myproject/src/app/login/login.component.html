@@ -24,17 +24,22 @@
       pattern</span><br>
 
 
+      <label> Confirm Password</label><br>
+      <input  class="inp-pass" type="text" ngModel #confirmPass = 'ngModel'
+      name="confirmPassword">
+
+      <br>
 
     <div>
       <label>gender</label><br>
       <label>
-        <input type="radio" name="gender" value="Male"ngModel #gender='ngModel'> Male
+        <input type="radio" required name="gender" value="Male"ngModel #gender='ngModel'> Male
       </label><br>
       <label>
-        <input type="radio" name="gender" value="Female" ngModel #gender='ngModel'> Female
+        <input type="radio" required name="gender" value="Female" ngModel #gender='ngModel'> Female
       </label><br>
       <label>
-        <input type="radio" name="gender" value="Other" ngModel #gender='ngModel'> Other
+        <input type="radio" required name="gender" value="Other" ngModel #gender='ngModel'> Other
       </label>
       <span class="span-err" *ngIf="gender.errors?.['required'] ">Gender is required </span>
     </div>

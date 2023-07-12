@@ -1,24 +1,16 @@
 {
   "posts": [
     {
-      "fullName": "mosin mula",
-      "mobNo": "4557931535",
+      "fullName": "mosin mulla",
+      "mobNo": "5545255545",
+      "password": "56685233",
+      "confirmPassword": "12255",
       "email": "mosinmulla553@gmail.com",
-      "userName": "5536333",
+      "userName": "",
       "city": "PUNE",
-      "address": "umadi",
+      "address": "hjiyq",
       "gender": "Male",
       "id": 1
-    },
-    {
-      "fullName": "mosin mula",
-      "mobNo": "4448514445",
-      "email": "mosinmulla553@gmail.com",
-      "userName": null,
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 2
     },
     {
       "fullName": "mosin mula",
@@ -49,6 +41,54 @@
       "address": "umadi",
       "gender": "Male",
       "id": 5
+    },
+    {
+      "fullName": "mosin mula",
+      "mobNo": "4557931535",
+      "password": "143663",
+      "confirmPassword": "6++66+6",
+      "email": "mosinmulla553@gmail.com",
+      "userName": "5536333",
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 7
+    },
+    {
+      "fullName": "salman mulla",
+      "mobNo": "5553636363",
+      "password": "",
+      "confirmPassword": "",
+      "email": "mosinmulla553@gmail.com",
+      "userName": "salman",
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 8
+    },
+    {
+      "fullName": "salman mulla",
+      "mobNo": "5553636363",
+      "password": "",
+      "confirmPassword": "",
+      "email": "mosinmulla553@gmail.com",
+      "userName": "salman",
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 9
+    },
+    {
+      "fullName": "mosin mulla",
+      "mobNo": "5545255545",
+      "password": "56685233",
+      "confirmPassword": "12255",
+      "email": "mosinmulla553@gmail.com",
+      "userName": "",
+      "city": "PUNE",
+      "address": "hjiyq",
+      "gender": "Male",
+      "id": 10
     }
   ],
   "comments": [
@@ -92,6 +132,22 @@
     {
       "studentName": "554",
       "id": 8
+    },
+    {
+      "studentName": "lop",
+      "id": 9
+    },
+    {
+      "studentName": "kjkjikjk",
+      "id": 10
+    },
+    {
+      "studentName": "nbhj",
+      "id": 11
+    },
+    {
+      "studentName": "njjj",
+      "id": 12
     }
   ],
   "form": [
@@ -119,6 +175,16 @@
       "Name": "",
       "MobileNumber": "",
       "id": 5
+    },
+    {
+      "Name": "mosin",
+      "MobileNumber": "2253633+",
+      "id": 6
+    },
+    {
+      "Name": "",
+      "MobileNumber": "",
+      "id": 7
     }
   ]
 }

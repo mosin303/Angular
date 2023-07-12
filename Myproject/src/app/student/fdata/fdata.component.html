@@ -1,0 +1,25 @@
+<p>fdata works!</p>
+<button (click)="getById()"> getbyid</button><br><br>
+<button (click)="delete()">delet Record</button><br><br>
+<div *ngIf ="fData" class="table-container">
+    <table>
+       <tr>
+        <th *ngFor ="let heading of tableHeading">{{heading}}</th>
+       </tr> 
+       <tr *ngFor ="let tableData of fData"> 
+        <td>{{tableData.id}}</td>
+        <td>{{tableData.fullName}}</td>
+        <td>{{tableData.mobNo}}</td>
+        <td>{{tableData.email}}</td>
+         
+        <td>{{tableData.city}}</td>
+        <td>{{tableData.address}}</td>
+        <td>{{tableData.gender}}</td>
+
+       </tr>
+    </table>
+     
+    <!-- ["id",' fullName ', "mobNo",  "email","userName","city","address","gender"]; -->
+</div><br>
+
+<br><br>
