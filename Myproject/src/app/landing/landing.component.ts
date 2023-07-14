@@ -60,7 +60,7 @@ fdata(){
 }
 
 updateDetails(){this.ApidataSevice.journey = "update"
-this.ApidataSevice.getApiCall('posts','6').subscribe(response=>{
+this.ApidataSevice.getApiCall('posts','1').subscribe(response=>{
   this.data= response;
 });
 

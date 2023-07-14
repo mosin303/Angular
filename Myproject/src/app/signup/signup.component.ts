@@ -44,7 +44,7 @@ export class SignupComponent {
          address:[],
          password:[],
          confirmPassword:[],
-         gender:['Female']
+         gender:['Male']
        })
 
      }

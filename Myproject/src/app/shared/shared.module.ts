@@ -3,24 +3,30 @@ import { CommonModule } from '@angular/common';
 import { StudentDemoComponent } from '../student/student-demo/student-demo.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { NumberDirective } from '../student/number.directive';
+ 
  
 
 
 @NgModule({
   declarations: [
-    StudentDemoComponent
+    StudentDemoComponent,
+    NumberDirective,
   ],
   imports: [
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+   
   ],
   exports:[
     StudentDemoComponent,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NumberDirective,
+    
     
   ]
 })

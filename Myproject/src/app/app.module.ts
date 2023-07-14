@@ -15,6 +15,9 @@ import { LifecyclehooksComponent } from './lifecyclehooks/lifecyclehooks.compone
 import { SharedModule } from './shared/shared.module';
 import { FormComponent } from './form/form.component';
 import { GetidComponent } from './getid/getid.component';
+import { ChagsOnlyDirective } from './chags-only.directive';
+import { FilterPipe } from './filter.pipe';
+ 
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +31,9 @@ import { GetidComponent } from './getid/getid.component';
          LifecyclehooksComponent,
          FormComponent,
          GetidComponent,
+         ChagsOnlyDirective,
+         FilterPipe,
+         
 
      
   ],

@@ -33,7 +33,7 @@ getdata(){
 }
 
 delete(){
-  this.apidata.deletApicall('posts',6).subscribe(resp=>{
+  this.apidata.deletApicall('posts',4).subscribe(resp=>{
     console.log('delet respo',resp);
     
   })

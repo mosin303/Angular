@@ -6,7 +6,7 @@
     <label >MobNo</label>
     <input type="text" formControlName="mobileNo"><br><br>
     
-    <button (click) ="save()">save</button>
+    <button [disabled]="!form.valid" (click)="save()">save</button>
     
 </form>
 

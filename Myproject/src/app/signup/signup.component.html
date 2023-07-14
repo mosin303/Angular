@@ -3,7 +3,7 @@
   <form class="signup-form-container" [formGroup]="signUpForm">
 
       <label>Name</label><br>
-      <input type="text" formControlName="fullName"><br>
+      <input type="text" formControlName="fullName" appChagsOnly><br>
       <span *ngIf="!signUpForm.get('fullName')?.touched 
        && !signUpForm.get('fullName')?.valid
        && !signUpForm.get('fullName')?.dirty">Hint:Enter Your Full Name here
@@ -27,7 +27,7 @@
       <br><br>
       
       <label>MobNo</label><br>
-      <input type="text" formControlName="mobNo"><br>
+      <input type="text" formControlName="mobNo" appNumber><br>
       <span *ngIf="!signUpForm.get('mobNo')?.touched">Hint: Enter you Mobile Number</span>
       <span *ngIf="signUpForm.get('mobNo')?.errors?.['pattern']
               && signUpForm.get('mobNo')?.touched " class="err">
@@ -52,7 +52,7 @@
       <input type="text" formControlName="email"><br>
 
       <label>User Name</label><br>
-      <input type="text" formControlName="userName"><br>
+      <input type="text" formControlName="userName" ><br>
 
       <label>Address</label><br>
       <input type="text" formControlName="address"><br>

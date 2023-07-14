@@ -1,94 +1,40 @@
 {
   "posts": [
     {
-      "fullName": "mosin mulla",
+      "fullName": "irfan mulla",
       "mobNo": "5545255545",
       "password": "56685233",
       "confirmPassword": "12255",
       "email": "mosinmulla553@gmail.com",
-      "userName": "",
+      "userName": "mosin",
       "city": "PUNE",
       "address": "hjiyq",
       "gender": "Male",
       "id": 1
     },
     {
-      "fullName": "mosin mula",
-      "mobNo": "4589659652",
+      "fullName": "badenavaj mallla",
+      "mobNo": "4555556659",
+      "password": "156565",
+      "confirmPassword": "145545555",
       "email": "mosinmulla553@gmail.com",
-      "userName": null,
+      "userName": "445454",
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 2
+    },
+    {
+      "fullName": "irfan korbu",
+      "mobNo": "1525325322",
+      "password": "2545",
+      "confirmPassword": "115121",
+      "email": "mosinmulla553@gmail.com",
+      "userName": "mksnjnd",
       "city": "PUNE",
       "address": "umadi",
       "gender": "Male",
       "id": 3
-    },
-    {
-      "fullName": "salman mulla",
-      "mobNo": "5553636363",
-      "email": "mosinmulla553@gmail.com",
-      "userName": "salman",
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 4
-    },
-    {
-      "fullName": "salman mulla",
-      "mobNo": "5553636363",
-      "email": "mosinmulla553@gmail.com",
-      "userName": "salman",
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 5
-    },
-    {
-      "fullName": "mosin mula",
-      "mobNo": "4557931535",
-      "password": "143663",
-      "confirmPassword": "6++66+6",
-      "email": "mosinmulla553@gmail.com",
-      "userName": "5536333",
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 7
-    },
-    {
-      "fullName": "salman mulla",
-      "mobNo": "5553636363",
-      "password": "",
-      "confirmPassword": "",
-      "email": "mosinmulla553@gmail.com",
-      "userName": "salman",
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 8
-    },
-    {
-      "fullName": "salman mulla",
-      "mobNo": "5553636363",
-      "password": "",
-      "confirmPassword": "",
-      "email": "mosinmulla553@gmail.com",
-      "userName": "salman",
-      "city": "PUNE",
-      "address": "umadi",
-      "gender": "Male",
-      "id": 9
-    },
-    {
-      "fullName": "mosin mulla",
-      "mobNo": "5545255545",
-      "password": "56685233",
-      "confirmPassword": "12255",
-      "email": "mosinmulla553@gmail.com",
-      "userName": "",
-      "city": "PUNE",
-      "address": "hjiyq",
-      "gender": "Male",
-      "id": 10
     }
   ],
   "comments": [
@@ -148,6 +94,10 @@
     {
       "studentName": "njjj",
       "id": 12
+    },
+    {
+      "studentName": "mosij",
+      "id": 13
     }
   ],
   "form": [
@@ -162,29 +112,34 @@
       "id": 2
     },
     {
-      "Name": "mosin mula",
-      "MobileNumber": "",
+      "Name": "salman",
+      "MobileNumber": "586554525552",
       "id": 3
     },
     {
-      "Name": "mosin mulla",
-      "MobileNumber": "58795462552",
+      "Name": "irfan",
+      "MobileNumber": "586554525552",
       "id": 4
     },
     {
-      "Name": "",
-      "MobileNumber": "",
+      "Name": "tanveer",
+      "MobileNumber": "586554525",
       "id": 5
     },
     {
-      "Name": "mosin",
-      "MobileNumber": "2253633+",
+      "Name": "tohid",
+      "MobileNumber": "789589548",
       "id": 6
     },
     {
-      "Name": "",
-      "MobileNumber": "",
+      "Name": "maaj",
+      "MobileNumber": "789589548",
       "id": 7
+    },
+    {
+      "Name": "sahil",
+      "MobileNumber": "789589548",
+      "id": 8
     }
   ]
 }

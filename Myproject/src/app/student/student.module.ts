@@ -8,14 +8,19 @@ import { StudentActivityComponent } from './student-activity/student-activity.co
 import { ApicallComponent } from './apicall/apicall.component';
 import { SharedModule } from '../shared/shared.module';
 import { FdataComponent } from './fdata/fdata.component';
+import { NumberDirective } from './number.directive';
  
  
+
+
 
 @NgModule({
   declarations: [
     StudentActivityComponent,
     ApicallComponent,
     FdataComponent,
+    
+    
     // StudentDemoComponent,
    
   ],

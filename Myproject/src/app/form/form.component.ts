@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ApidataService } from '../student/apidata.service';
 import { HttpClient } from '@angular/common/http';
 
@@ -25,8 +25,8 @@ export class FormComponent {
 
     myForm(){
       this.form = this.fb.group({
-         name : ['',[]],
-         mobileNo : ['']
+         name : ['',[Validators.required]],
+         mobileNo : ['',[Validators.required]]
       
 
       })

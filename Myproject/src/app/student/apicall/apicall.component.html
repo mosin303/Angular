@@ -4,7 +4,7 @@
     <form class="signup-form-container" [formGroup]="signUpForm">
   
         <label>Name</label><br>
-        <input type="text" formControlName="fullName"><br>
+        <input type="text" formControlName="fullName" appChagsOnly><br>
         <span *ngIf="!signUpForm.get('fullName')?.touched 
          && !signUpForm.get('fullName')?.valid
          && !signUpForm.get('fullName')?.dirty">Hint:Enter Your Full Name here
