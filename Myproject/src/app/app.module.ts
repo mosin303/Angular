@@ -17,6 +17,7 @@ import { FormComponent } from './form/form.component';
 import { GetidComponent } from './getid/getid.component';
 import { ChagsOnlyDirective } from './chags-only.directive';
 import { FilterPipe } from './filter.pipe';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
  
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { FilterPipe } from './filter.pipe';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    SharedModule
+    SharedModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

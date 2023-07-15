@@ -8,14 +8,18 @@
     
     <button [disabled]="!form.valid" (click)="save()">save</button>
     
-</form>
+</form><br><br>
+<div>
+    <label>Search here  </label>
+    <input type="text" [(ngModel)]="searchBoxVal"> 
+</div>
 
 <div *ngIf ="formData" class="table-container">
     <table>
        <tr>
         <th *ngFor ="let heading of tableHeading">{{heading}}</th>
        </tr> 
-       <tr *ngFor ="let tableData of formData"> 
+       <tr *ngFor ="let tableData of formData | filter : searchBoxVal"> 
         <td>{{tableData.Name}}</td>
         <td>{{tableData.MobileNumber}}</td>
         <td>{{tableData.id}}</td>
@@ -23,4 +27,15 @@
        </tr>
     </table>
 
+</div><br><br>
+
+<div>
+
+    {{myName | uppercase}} <br>
+
+    {{myName | lowercase}}
+</div>
+<div>
+    {{todayDate}} <br>
+    {{todayDate | date }} <br>
 </div>

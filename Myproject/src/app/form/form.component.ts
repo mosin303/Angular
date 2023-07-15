@@ -12,12 +12,15 @@ export class FormComponent {
   form!:FormGroup
   formData:any;
   tableHeading : any[]= ['Name', "MobileNumber","id"  ];
+  myName: any;
   constructor( private fb:FormBuilder,
     private apidata:ApidataService,
     private httpClient :HttpClient){}
+    todayDate = new Date();
+    searchBoxVal:any;
 
     ngOnInit(){
-      console.log('....')
+      console.log('....');
       this.myForm();
       this.getdata();
 
