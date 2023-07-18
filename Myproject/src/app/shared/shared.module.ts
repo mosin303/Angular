@@ -4,7 +4,11 @@ import { StudentDemoComponent } from '../student/student-demo/student-demo.compo
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NumberDirective } from '../student/number.directive';
- 
+import {MatInputModule} from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatButtonModule } from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
+  
  
 
 
@@ -18,7 +22,13 @@ import { NumberDirective } from '../student/number.directive';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-   
+    MatInputModule,
+   MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+    MatIconModule,
+    
+     
   ],
   exports:[
     StudentDemoComponent,
@@ -26,8 +36,14 @@ import { NumberDirective } from '../student/number.directive';
     ReactiveFormsModule,
     HttpClientModule,
     NumberDirective,
+    MatInputModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+    MatIconModule,
     
     
+   
   ]
 })
 export class SharedModule { }

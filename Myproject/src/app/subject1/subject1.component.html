@@ -1,0 +1,42 @@
+<p>subject1 works!</p>
+  
+<button (click)="sendData()">sendData</button>
+-------------------
+-------------------
+
+<app-subject2></app-subject2><br>
+
+------------------------------
+
+
+<app-subject3></app-subject3><br>
+
+-------------------
+
+
+<div class="container">
+    <form [formGroup]="form" (ngSubmit)="SaveForm()">
+        <div class="form-group">
+            <label>Password</label><br>
+            <input type="password" formControlName="password" class="form-control"><br>
+
+            <span *ngIf="f['password'].getError('required')!=null">Password is Required</span>
+        </div>
+        <br><br>
+
+        <div class="form-group">
+            <label>confirm Password</label><br>
+            <input type="password" formControlName="confirm_password" class="form-control"><br>
+
+            <span *ngIf="f['confirm_password'].getError('required')!=null">Password is Required</span>
+            <span *ngIf="f['confirm_password'].getError('Mustmatch')!=null">Password and confirm Password</span>
+        </div>
+
+
+
+
+    </form>
+</div>
+
+
+

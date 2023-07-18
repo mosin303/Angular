@@ -57,6 +57,10 @@ export class LandingComponent {
 }
 fdata(){
   this.router.navigateByUrl('fdata')
+
+}
+subject(){
+  this.router.navigateByUrl('subject')
 }
 
 updateDetails(){this.ApidataSevice.journey = "update"

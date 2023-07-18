@@ -18,6 +18,9 @@ import { GetidComponent } from './getid/getid.component';
 import { ChagsOnlyDirective } from './chags-only.directive';
 import { FilterPipe } from './filter.pipe';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { Subject1Component } from './subject1/subject1.component';
+import { Subject2Component } from './subject2/subject2.component';
+import { Subject3Component } from './subject3/subject3.component';
  
 @NgModule({
   declarations: [
@@ -34,6 +37,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
          GetidComponent,
          ChagsOnlyDirective,
          FilterPipe,
+         Subject1Component,
+         Subject2Component,
+         Subject3Component,
          
 
      

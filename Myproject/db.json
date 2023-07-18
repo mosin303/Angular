@@ -35,6 +35,30 @@
       "address": "umadi",
       "gender": "Male",
       "id": 3
+    },
+    {
+      "fullName": "bandenvaj  mulla",
+      "mobNo": "5625252596",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "email": "mosinmulla553@gmail.com",
+      "userName": "nkdijasd",
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 5
+    },
+    {
+      "fullName": "salman mulla",
+      "mobNo": "2651112454",
+      "password": "12355",
+      "confirmPassword": "125566",
+      "email": "mosinmulla553@gmail.com",
+      "userName": "moain",
+      "city": "PUNE",
+      "address": "umadi",
+      "gender": "Male",
+      "id": 6
     }
   ],
   "comments": [
@@ -155,6 +179,11 @@
       "Name": "salmankan mulla",
       "MobileNumber": "1156",
       "id": 11
+    },
+    {
+      "Name": "bandenvaj  mulla",
+      "MobileNumber": "782145656",
+      "id": 12
     }
   ]
 }

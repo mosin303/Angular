@@ -7,10 +7,11 @@ import { DirectivesInAngularComponent } from './directives-in-angular/directives
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { LifecyclehooksComponent } from './lifecyclehooks/lifecyclehooks.component';
-import { ApicallComponent } from './student/apicall/apicall.component';
+ 
 import { FormComponent } from './form/form.component';
 import { FdataComponent } from './student/fdata/fdata.component';
 import { GetidComponent } from './getid/getid.component';
+import { Subject1Component } from './subject1/subject1.component';
 
 const routes: Routes = [
 { path : '', component :LandingComponent},
@@ -24,6 +25,7 @@ const routes: Routes = [
  {path : 'form',component: FormComponent},
  { path : 'fdata', component:FdataComponent},
  { path : 'getid', component:GetidComponent},
+ { path : 'subject', component:Subject1Component},
 { path : 'student', loadChildren:()=>import ('./student/student.module').then(mod=>mod.StudentModule) }
 ];
 

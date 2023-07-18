@@ -1,0 +1,21 @@
+/* div{
+    border:2px red;
+} */
+.container{
+    background-color: rgb(125, 233, 179);
+    height: 500px;
+    width: 80%;
+    margin-left: 91px;
+    margin-top: 50px;
+    padding: 20px 24px;
+    border: 5px solid black
+}
+h1{
+    text-align: center;
+    color: #d20c0c;
+    border: #f04ff3;
+    border: 3px;
+    /* background-color: #f04ff3; */
+     
+    
+}

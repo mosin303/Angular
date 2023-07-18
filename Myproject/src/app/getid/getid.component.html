@@ -1,0 +1,56 @@
+<div class="container">
+  <h1>Login</h1>
+  <form [formGroup]="matForm">
+    <mat-form-field class="name-field">
+      <mat-label>First Name</mat-label>
+      <input matInput formControlName="firstName">
+      <mat-hint class="hint" *ngIf="!matForm.get('firstName')?.touched">Please Enter First Name here</mat-hint>
+      <mat-error *ngIf="matForm.get('firstName')?.hasError('required')"> First Name is required</mat-error>
+      <mat-error *ngIf="matForm.get('firstName')?.errors?.['pattern']">First Name is pattern</mat-error>
+      <mat-error *ngIf="!matForm.get('firstName')?.errors?.['pattern']
+       && matForm.get('firstName')?.errors?.['minlength']">minimum 2 charachters required</mat-error>
+    </mat-form-field>&nbsp;
+    <mat-form-field class="name-field">
+      <mat-label>last Name</mat-label>
+      <input matInput formControlName="lastName">
+      <mat-hint class="hint" *ngIf="!matForm.get('lastName')?.touched">Please Enter Last Name here</mat-hint>
+      <mat-error *ngIf="matForm.get('lastName')?.hasError('required')"> Last Name is required</mat-error>
+      <mat-error *ngIf="matForm.get('lastName')?.errors?.['pattern']">Last Name is pattern</mat-error>
+      <mat-error *ngIf="!matForm.get('lastName')?.errors?.['pattern']
+       && matForm.get('lastName')?.errors?.['minlength']">minimum 2 charachters required</mat-error>
+    </mat-form-field>
+
+    <br><br>
+
+
+    <mat-form-field>
+      <mat-label>Password</mat-label>
+      <input matInput [type]="showPassword ? 'text' : 'password'" formControlName="password"> 
+      <mat-icon matSuffix (click)="visibilePassword()" *ngIf="!showPassword"> visibility </mat-icon>
+      <mat-icon matSuffix (click)="visibilePassword()" *ngIf="showPassword">visibility_off</mat-icon>
+
+      <mat-hint class="hint" *ngIf="!matForm.get('password')?.touched">Please Enter password here</mat-hint>
+      <mat-error *ngIf="matForm.get('password')?.hasError('required')"> password is required</mat-error>
+      <mat-error *ngIf="matForm.get('password')?.errors?.['pattern']">password is pattern</mat-error>
+      <mat-error *ngIf="!matForm.get('password')?.errors?.['pattern']
+   && matForm.get('password')?.errors?.['minlength']">minimum 6 charachters required</mat-error>
+    </mat-form-field>&nbsp;
+ 
+    <mat-form-field>
+      <mat-label>confirmPassword</mat-label>
+      <input matInput [type]="showConfirmPassword ? 'text' : 'password'" formControlName="confirmPassword"> 
+        <mat-icon matSuffix (click)="visibileConfirmPassword()" *ngIf="!showConfirmPassword"> visibility </mat-icon>
+        <mat-icon matSuffix (click)="visibileConfirmPassword()" *ngIf="showConfirmPassword">visibility_off</mat-icon>
+        <mat-hint class="hint" *ngIf="!matForm.get('confirmPassword')?.touched">Please Enter password here</mat-hint>
+        <mat-error *ngIf="matForm.get('confirmPassword')?.hasError('required')"> password is required</mat-error>
+        <mat-error *ngIf="matForm.get('confirmPassword')?.getError('Mustmatch')!=null"> password and confirm password match</mat-error>
+      </mat-form-field>
+
+    <br><br>
+    <button mat-raised-button color="primary">Submit</button>&nbsp;
+    <button mat-raised-button color="accent">Save</button>
+    <br>
+  </form>
+</div>
+
+---------------------------------------------------------------------------
